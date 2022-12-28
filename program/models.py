@@ -21,9 +21,12 @@ class Event(models.Model):
     description = models.CharField("Abi and Group", max_length=200)
     start_time = models.DateTimeField()
     end_time = models.DateTimeField()
+    
+    
 
     @property
     def get_html_url(self):
         url = reverse('event_edit', args=(self.id,))
         return f'<a href="{url}"> {self.title}</a>'
+     
 

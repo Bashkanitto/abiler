@@ -7,7 +7,7 @@ from .models import Event
 
 
 class UserLoginForm(AuthenticationForm):
-    username = forms.CharField(label='Имя пользователя', widget=forms.TextInput(attrs={'class': 'form-control'}))
+    username = forms.CharField(label='Имя Пользователя', widget=forms.TextInput(attrs={'class': 'form-control'}))
     password = forms.CharField(label='Пароль', widget=forms.PasswordInput(attrs={'class': 'form-control','id': 'pw'}))
 
 
@@ -26,8 +26,10 @@ class EventForm(ModelForm):
   class Meta:
     model = Event
     widgets = {
-      'start_time': DateInput(attrs={'type': 'datetime-local'}, format='%Y-%m-%dT%H:%M'),
-      'end_time': DateInput(attrs={'type': 'datetime-local'}, format='%Y-%m-%dT%H:%M'),
+      'title': DateInput(attrs={'class': 'name'}),
+      'description': DateInput(attrs={'class': 'abi'}),
+      'start_time': DateInput(attrs={'type': 'datetime-local','class':'start'}, format='%Y-%m-%dT%H:%M'),
+      'end_time': DateInput(attrs={'type': 'datetime-local','class':'end'}, format='%Y-%m-%dT%H:%M'),
     }
     fields = '__all__'
 
