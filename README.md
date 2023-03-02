@@ -9,12 +9,14 @@ it has integrated calendar, event page, and only registered persons can enter da
 ###2. to have python and install django
 
 ###`pip install django`
+
 ![image](https://user-images.githubusercontent.com/86559848/222454359-0b0224bc-4257-4eec-8c6a-59d3228f2ca9.png)
 
 
 ###3. To run project 
 
 ###`python manage.py runserver`
+
 ![image](https://user-images.githubusercontent.com/86559848/222454437-efd5f8fc-14dd-49a9-866e-174502ac77d6.png)
 
 
