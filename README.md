@@ -20,7 +20,7 @@ it has integrated calendar, event page, and only registered persons can enter da
 ![image](https://user-images.githubusercontent.com/86559848/222454437-efd5f8fc-14dd-49a9-866e-174502ac77d6.png)
 
 
-### Some screenshoots from this project
+### Code
 ![image](https://user-images.githubusercontent.com/86559848/222455523-e70d86da-3b70-4731-8634-a933e62ecbff.png)
 ![image](https://user-images.githubusercontent.com/86559848/222455571-7a6853ce-6c2d-4797-b328-13c831d9ecc9.png)
 ![image](https://user-images.githubusercontent.com/86559848/222455618-8049dcfd-80df-46c5-af55-5b28a69e24fd.png)
@@ -29,8 +29,7 @@ it has integrated calendar, event page, and only registered persons can enter da
 
 
 
-### code
+### Some screenshoots from this project
 ![image](https://user-images.githubusercontent.com/86559848/222456262-2f960602-ebe3-4884-9216-6db13b618a40.png)
 ![image](https://user-images.githubusercontent.com/86559848/222456438-781c8ab3-0dba-4879-8b2b-714328aa8b08.png)
-![image](https://user-images.githubusercontent.com/86559848/222456545-171e2892-1c9f-4998-a214-3fd92c30960a.png)
 
